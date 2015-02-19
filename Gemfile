@@ -15,7 +15,7 @@ group :test, :development do
   gem "factory_girl_rails"
   gem "rspec-rails"  
   gem 'webmock', '~> 1.20.4'
-  gem "jasmine"
+  gem 'jasmine'
   gem 'jasmine-jquery-rails'
   gem 'capybara'
 end
