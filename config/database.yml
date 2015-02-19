@@ -1,0 +1,19 @@
+development:
+  adapter: postgresql
+  database: tax_problem
+  password: 'music123'
+  host: localhost
+  pool: 5
+  timeout: 5000
+
+test:
+  adapter: postgresql
+  database: tax_problem_test
+  password: 'music123'
+  host: localhost
+  pool: 5
+  timeout: 5000
+
+# production:
+#   <<: *default
+#   database: db/production.sqlite3
