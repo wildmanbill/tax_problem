@@ -4,7 +4,7 @@ FactoryGirl.define do
     name 'some name'
     country 'United States'
     income 1000000.00
-    localities [1,2,3]
+    localities {{state: 3, municipal: 99}}
   end
   
   factory :business_user, class: BusinessUser, parent: :taxable_entity do
