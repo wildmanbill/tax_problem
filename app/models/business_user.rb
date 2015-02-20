@@ -1,0 +1,5 @@
+class BusinessUser < TaxableEntity
+  
+  
+  
+end  
