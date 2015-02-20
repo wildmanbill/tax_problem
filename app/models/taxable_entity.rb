@@ -7,13 +7,6 @@ class TaxableEntity < ActiveRecord::Base
                        length: {maximum: 50}
                      
   validates :country,  format: {with: COUNTRY_FORMAT}
-  
-  
-  
-  # def income= income
-  #   income.gsub!(ONLY_DIGITS, '')
-  #   write_attribute(:income, income)
-  # end
                      
   
   

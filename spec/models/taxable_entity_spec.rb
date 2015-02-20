@@ -1,11 +1,9 @@
-#require 'rails_helper'
-
 describe TaxableEntity do
 
   describe 'factory' do
     it 'should be valid' do
       te = FactoryGirl.build(:taxable_entity)
-      expect(te.valid?).to eq(false)
+      expect(te.valid?).to eq(true)
     end
   end
 

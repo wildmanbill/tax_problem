@@ -2,7 +2,7 @@ FactoryGirl.define do
   
   factory :taxable_entity do
     name 'some name'
-    country 'United States'
+    country 'US'
     income 1000000.00
     localities {{state: 3, municipal: 99}}
   end
