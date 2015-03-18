@@ -21,8 +21,8 @@ ActiveRecord::Schema.define(version: 20150219171520) do
     t.string  "name"
     t.string  "country"
     t.decimal "income",     precision: 11, scale: 2
-    t.hstore  "localities",                          default: {}
-    t.hstore  "store",                               default: {}
+    t.hstore  "localities",                          default: ""
+    t.hstore  "store",                               default: ""
   end
 
 end

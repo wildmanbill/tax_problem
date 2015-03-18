@@ -13,5 +13,4 @@ class BusinessUser < TaxableEntity
     self.store['business_id_number'] = id_number.gsub!(NOT_DIGITS, '')
   end  
 
-  
 end  

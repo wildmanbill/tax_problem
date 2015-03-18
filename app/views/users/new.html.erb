@@ -1,0 +1,5 @@
+<%= form_tag '/users/create', id: 'choose_user_type' do %>
+  <%= label_tag :user_type, 'Select Account Type:'%>
+	<%= select_tag 'user_type', options_from_collection_for_select(@options, :name, :value) %>
+	<%= submit_tag 'submit', id: 'submit' %>
+<% end %>
